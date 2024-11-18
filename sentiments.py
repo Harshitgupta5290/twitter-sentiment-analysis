@@ -30,6 +30,10 @@ class SentimentAnalysis:
         accessToken = 'YOUR_ACCESS_TOKEN_HERE'
         accessTokenSecret = 'YOUR_ACCESS_TOKEN_SECRET_HERE'
         bearer_token = 'YOUR_BEARER_TOKEN_HERE' 
+        # consumerKey = 'W6zecjICs8IM0XTzgMPo2rbLl'
+        # consumerSecret = 'uZSbMOzD4YafVacFDC38imwMCatG2lrMxfcJWnERAZGXui1iOw'
+        # accessToken = '1843648363482259456-r9QW0jq0zj9pLTtJPwkhaCN2Vf3TBU'
+        # accessTokenSecret = '7CUIsatxf1i829TvNDKltIn1bJwuJBSkI0096FWtOsnXQ'
         client = tweepy.Client(bearer_token=bearer_token)
         auth = tweepy.OAuthHandler(consumerKey, consumerSecret)
         auth.set_access_token(accessToken, accessTokenSecret)
